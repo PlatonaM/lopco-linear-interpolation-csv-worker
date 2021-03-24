@@ -100,7 +100,6 @@ try:
         raise RuntimeError(resp.status_code)
 except Exception as ex:
     try:
-        pass
         os.remove(os.path.join(data_cache_path, output_file))
     except Exception:
         pass
