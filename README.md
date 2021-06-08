@@ -1,4 +1,8 @@
-#### Description
+## lopco-linear-interpolation-csv-worker
+
+Uses linear interpolation to fill gabs in CSV files. CSV files must have a column with timestamps.
+
+### Description
 
     {
         "name": "Linear Interpolation CSV",
